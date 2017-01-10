@@ -7,7 +7,3 @@ dependencies {
 	compileOnly group: "org.osgi", name: "org.osgi.compendium", version: "5.0.0"
 	compileOnly group: "com.liferay", name: "com.liferay.portal.portlet.bridge.soy", version: "3.0.0"
 }
-
-jar {
-    from "/package.json"
-}
