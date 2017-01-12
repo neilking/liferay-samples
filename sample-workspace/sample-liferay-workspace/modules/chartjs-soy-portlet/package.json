@@ -1,7 +1,8 @@
 {
 	"dependencies": {
 		"metal-component": "^2.4.5",
-		"metal-soy": "^2.4.5"
+		"metal-soy": "^2.4.5",
+		"chart.js": "^2.4.0"
 	},
 	"devDependencies": {
 		"liferay-module-config-generator": "^1.1.10",

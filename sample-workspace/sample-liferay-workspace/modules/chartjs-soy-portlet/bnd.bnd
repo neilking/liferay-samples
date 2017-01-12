@@ -1,5 +1,7 @@
 Bundle-Name: chartjs-soy-portlet
 Bundle-SymbolicName: chartjs.soy.portlet
 Bundle-Version: 1.0.0
-Include-Resource: package.json
 Require-Capability: soy;filter:="(type=metal)"
+Include-Resource: package.json,\
+	META-INF/resources/js/Chart.js = node_modules/chart.js/dist/Chart.js
+Web-ContextPath: /chartjs-soy
