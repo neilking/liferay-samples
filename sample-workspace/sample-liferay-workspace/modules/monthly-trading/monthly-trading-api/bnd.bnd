@@ -1,0 +1,9 @@
+Bundle-Name: monthly-trading-api
+Bundle-SymbolicName: monthly.trading.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	monthly.trading.exception,\
+	monthly.trading.model,\
+	monthly.trading.service,\
+	monthly.trading.service.persistence
+-includeresource: META-INF/service.xml=../monthly-trading-service/service.xml
