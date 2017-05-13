@@ -91,7 +91,7 @@ class MonthlyTrading extends Component {
 	}
 
 	/**
-	 * Get Bar backgroud colors from prefered colors
+	 * Get Bar background colors from prefered colors
 	 * @protected
 	 * @param {int} length
 	 * @param {string} opacity
